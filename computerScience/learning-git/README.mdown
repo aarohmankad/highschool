@@ -6,7 +6,7 @@
 
 3. Download [Git](http://www.git-scm.com)
 
-4. Open Command Prompt.  Navigate to your Github folder in My Documents.
+4. Open Git Bash.  Navigate to your Github folder in My Documents.
     
 >    cd (folderName)   
 >    cd ..
@@ -25,7 +25,7 @@
     
 >    This is my first change using github!
 
-9. Now lets go back to the command prompt and add our changes
+9. Now lets go back to the git bash and add our changes
     
 >    git add -A
 
@@ -41,9 +41,9 @@
 
 13. Have someone in your team check your code, make sure it looks good (aesthetically and technically), be sure to comment out long or complex methods.
 
-14. Merge the Pull Request with master and delete the branch.
+14. Merge the Pull Request with master and delete the branch on Github.
 
-15. In the Command Prompt, go back to the master branch
+15. In the Git Bash, go back to the master branch
     
 >    git checkout master
 
@@ -57,7 +57,7 @@
 
     cd (folderName) : change directories into a different folder
     cd .. : go out of your current folder
-    dir : see all files and folder in your current folder
+    ls : see all files and folder in your current folder
     git help : list all available commands for git
     git clone (githubCloneUrl) : clone an online repository onto your computer
     git pull : pull the latest changes from the code repository into your local version

@@ -17,6 +17,12 @@ The institutions that make decisions for a collective society
 *   **Executive Power**: power to enforce and administer laws (President)
 *   **Judicial Power**: power to interpret law and settle disputes within society (Courts)
 
+These powers are typically outlines in a country's constitution.
+
+*What is Federalism?*
+
+Power is shared between national and state governments. Have separate Legislative, Executive, and Judicial powers.
+
 *What makes up a state?*
 
 *   population
@@ -56,9 +62,9 @@ As a short aside, this is the current state of freedom in the World as of 2010 (
 
 ![Democracy Index Survey for 2010](https://upload.wikimedia.org/wikipedia/commons/d/d7/EIU_Democracy_Index_2014_green_and_red.png)
 
-*   **Oligarchy**
+*   **Oligarchy/Plutocracy**
     -   The rule of a few
-    -   Power comes from money, military backing, social position
+    -   Power comes from money (plutocracy), military backing, social position
     -   China under the Communist Party
     -   Vietnam under the Communist Party
     -   Syria under the Ba'ath Party
@@ -84,7 +90,9 @@ As a short aside, this is the current state of freedom in the World as of 2010 (
 
 ![Presidential and Parliamentary Governments](http://image.slidesharecdn.com/constippt-140413073137-phpapp02/95/difference-between-parliamentary-govt-and-presidential-govt-15-638.jpg?cb=1397391384)
 
-*Class Discussion: What is the purpose of Government and is it necesssary?*
+*Class Discussion*
+
+*   
 
 *What do Governments provide?*
 

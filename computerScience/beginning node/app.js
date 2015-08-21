@@ -1,14 +1,13 @@
 var
   // Express is a popular node server library
   express = require('express'),
-  // Set out app as an Express App
+  // Set up app as an Express App
   app = express();
 
 /*
  * returns index.html when user goes to localhost:8080
  * @param request {Object} request information from the browser (url, options, etc.)
- * @param response {Object} the response we want to send back
- *                          essentially the browser
+ * @param response {Object} the response we want to send back, essentially the browser
  * @returns {File}
  */
 app.get('/', function (request, response) {

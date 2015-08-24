@@ -101,3 +101,109 @@ As a short aside, this is the current state of freedom in the World as of 2010 (
 *   Preserve domestic order (National Guard)
 *   Socialize the young (education)
 *   Collect taxes (used to pay for public goods and services)
+
+#The Constitution
+
+**227 years ago, the Constitution was signed at the Philidelphia Convention**
+
+The original Constitution is comprised of 4,543 words (ours is the worlds shortest!)
+
+More than 11,000 amendments have been proposed in Congress, of which only 27 were legalized.
+
+**Constitution Basics**
+
+*   Dates
+    -   Written in 1787
+    -   Ratified in 1788
+    -   Into effect in 1789
+*   Supreme Law of the Land
+*   7,591 words
+*   Layout
+    -   Preamble
+        +   States the purpose of the Constitution
+    -   Article I
+        +   Legislative Branch
+    -   Article II
+        +   Executive Branch
+    -   Article III
+        +   Judicial Branch
+    -   Article IV
+        +   Relations Among the States (Necessary & Proper Clause)
+    -   Article V
+        +   Amending the Constitution
+    -   Article VI
+        +   Role of the Federal government (National debts, supremacy clause)
+    -   Article VII 
+        +   Ratifying the Constitution
+
+
+**What does the  Preamble do?**
+
+1. Form a more perfect Union - Make the country better and stronger
+
+2. Establish Justice - Laws are fair and impartial
+
+3. Insure domestic tranquility - Control Factions
+
+4. Provide for the common defense - Defend nation against enemies
+
+5. Promote the general welfare - Government serves the people
+
+6. Secure the blessing of liberty - Secure freedom and rights for the people
+
+
+**What are the basic Principles of the Constitution?**
+
+*   Popular Sovereignty
+    -   "We the People"
+    -   People are the source of government power
+    -   Guarantees a Republic
+    -   Limits?
+        +   TODO
+*   Limited Government
+    -   Rule of Law
+        +   Govt. needed to secure natural rights; yet needs to be limited to not injure natural rights
+    -   Majority Rule, Minority Rights
+        +   Checks & Balance, Sep. of Powers, Civil Liberties/Rights
+*   Separation of Powers
+    -   Division of Power between Judicial, Legislative, and Executive branches
+    -   Goal was to protect against tyranny
+    -   Can be inefficient
+*   Checks and Balances
+    -   Each branch can limit the powers of other branches
+    -   No one branch can become to powerful
+*   Judicial Review
+    -   Power of court to determine the constitutionality of an amendment or law
+    -   Informal Amendment through Marbury v. Madison
+*   Federalism
+    -   A system of government in which power is both divided & shared between a central government & state/regional political units
+
+**What are the three paths to an amendment?**
+
+*   Proposal by convention of states, ratification by state conventions, never used
+*   Proposal by convention of states, ratification by state legislatures, never used
+*   Proposal by Congress, ratification by state conventions, used once (21st amendment)
+*   Proposal by Congress, ratification by state legislatures, nearly always used
+
+**What are the Bill of Rights?**
+
+*   The first ten amendments
+*   Written by James Madison
+*   Constitutional protection of individual liberties
+
+**What are other Amendments to the Constitution?**
+
+*   11th Amendment more clearly defines the original jurisdiction of the Supreme Court concerning a suit brought against a state by a citizen of another state.
+*   12th Amendment redefines how the President and Vice President by the *Electoral College*
+*   13th Amendment abolished slavery
+*   14th Amendment gave individuals rights on a federal and state level
+*   15th Amendment ensured that race cannot be used as a criteria for voting
+*   16th Amendment allows the government to collect taxes based on a state's population
+*   17th Amendment shifted the elections of Senators from the state legislatures to the people of the states (direct democracy)
+*   18th Amendment abolished alchohol (later repealed)
+*   19th Amendment allowed women to vote
+*   20th Amendment set new starts dates on terms of Congress and the President
+*   21st Amendment abolished the 18th amendment
+*   22nd Amendment set limits on how long a President can serve (2 four year terms)
+*   23rd Amendment grants the District of Columbia 3 electors in Presidential elections
+*   24th Amendment ensured no tax could be charged to vote

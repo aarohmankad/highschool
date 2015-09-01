@@ -215,3 +215,63 @@ More than 11,000 amendments have been proposed in Congress, of which only 27 wer
 
 *   Over time, there have been changes to the Consitution, but not exactly an amendment
 *   Those changes have not involved any changes in the written words of the Constitution
+
+#Federalism
+
+**How are National Courts and Federalism linked?**
+
+*   National court system often called in to umpire matches between the states and the federal government
+    -   McCulloch v. Maryland
+        +   Federal government tax on state bank in Maryland
+
+**What makes Federalism and the 14th amendment similar?**
+
+*   Bill of Rights enforceable in state governments
+*   Forbids states to forbid any person of life, liberty, or propety without due process of law
+*   States cannot deny equal protection of law
+*   Cited to expand federal rights over states
+    -   Civil Rights, Air standards, Same-sex marriage
+
+**What is the History of Federalism in the United States?**
+
+*   Dual Federalism
+    -   1789 - 1931
+    -   Individual entities with clearly defined powers
+    -   Each level of government excercises it's control over its own sphere of influence
+*   Cooperative Federalism
+    -   1932 - 1968
+    -   Sharing policy making
+    -   National government more involved in the economy
+        +   New Deal, Interstate highway system
+*   New Federalism
+    -   1968 - ?
+    -   Introduced by Nixon and expanded by Reagan
+    -   Give states *more control* of their money
+*   Fiscal Federalism
+    -   1968 - ?
+    -   Money given by National Government to the states through grants
+    -   Assisting states in areas of health, income security, and education
+        +   drinking age, NCLB
+
+**What are Grants?**
+
+*   Federal Tools for influencing policy at a state and local level
+*   Categorical Grants
+    -   federal aid that meets the criteria of a specific category and has specific criteria attached; *strings attached*
+    -   Medicaid
+*   Project Grants
+    -   aid to states for specific purposes
+    -   Scientific research, highway construction, universities
+*   Block Grants
+    -   federal aid that can be used by states in a broad area; *less strings attached*
+    -   community development, health, or education
+
+**How do Block Grants go along with Devolution?**
+
+Block grants are a form of aid going back to the states, with little to no requirements for the grant.
+
+**What are Mandates?**
+
+*   Requirements the federal government impose on states on local government
+    -   funded or unfunded
+*   American with Disabilities Act, Environmental Protection Act

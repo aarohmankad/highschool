@@ -37,6 +37,7 @@ function init() {
   localPlayer = new Player(startX, startY);
   remotePlayers = [];
 
+  // Connect our client to our server port
   socket = io.connect('http://localhost', {
     port: 8080,
     transports: ['websocket'],
@@ -57,10 +58,19 @@ function setEventHandlers() {
   // Window resize
   window.addEventListener('resize', onResize);
 
+  // call onSocketConnected when this player is connected
   socket.on('connect', onSocketConnected);
+  
+  // call onSocketDisconnect when this player disconnects
   socket.on('disconnect', onSocketDisconnect);
+  
+  // call onNewPlayer when a new player joins the game
   socket.on('new player', onNewPlayer);
+  
+  // call onMovePlayer when any player moves
   socket.on('move player', onMovePlayer);
+
+  // call onRemovePlayer when any player leaves
   socket.on('remove player', onRemovePlayer);
 }
 
@@ -89,6 +99,9 @@ function onResize() {
   canvas.height = window.innerHeight;
 }
 
+/**
+ * called when this player connects to the server
+ */
 function onSocketConnected() {
   console.log('Connected to socket server');
 
@@ -98,10 +111,17 @@ function onSocketConnected() {
   });
 }
 
+/**
+ * called when player disconnects from the server
+ */
 function onSocketDisconnect() {
   console.log('Disconnected from socket server');
 }
 
+/**
+ * called when a new player joins the game
+ * @param data {Object} data of the new player
+ */
 function onNewPlayer(data) {
   console.log('New player connected:', data.id);
 
@@ -110,10 +130,18 @@ function onNewPlayer(data) {
   remotePlayers.push(newPlayer);
 }
 
+/**
+ * called when any player moves
+ * @param data {Object} data on the player that moved
+ */
 function onMovePlayer(data) {
 
 }
 
+/**
+ * called when player is removed or leaves
+ * @param data {Object} data on player being removed or leaving
+ */
 function onRemovePlayer(data) {
   var removePlayer = findPlayerById(data.id);
 

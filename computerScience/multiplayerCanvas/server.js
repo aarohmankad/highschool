@@ -18,15 +18,19 @@ var
  * initialize game variables and dependencies
  */
 function init() {
+  // Make our players an empty array when server starts
   players = [];
 
+  // We want our app to run on port 8080 (this is just a common style)
   socket = io.listen(8080);
 
+  // Configure the socket to use `websockets`; not super important
   socket.configure(function() {
     socket.set("transports", ["websocket"]);
     socket.set("log level", 2);
   });
 
+  // Call setEventHandlers function
   setEventHandlers();
 }
 
@@ -34,6 +38,7 @@ function init() {
  * set basic event handlers
  */
 function setEventHandlers() {
+  // call onSocketConnection every time a player joins the game
   socket.sockets.on('connection', onSocketConnection);
 }
 
@@ -45,8 +50,13 @@ function setEventHandlers() {
 function onSocketConnection (client) {
   util.log('New player has connected:', client.id);
 
+  // call onClientDisconnect when this player disconnects
   client.on('disconnect', onClientDisconnect);
+
+  // call onNewPlayer when new player joins
   client.on('new player', onNewPlayer);
+
+  // call onMovePlayer when this player moves
   client.on('move player', onMovePlayer);
 }
 
@@ -75,9 +85,12 @@ function onClientDisconnect() {
  * @param data {Object} data on player who joined
  */
 function onNewPlayer (data) {
+  // create a new player and assign it a unique id
   var newPlayer = new Player(data.x, data.y);
   newPlayer.id = this.id;
 
+  // Let all other players know there is a new player
+  // and send out new player's info.
   this.broadcast.emit('new player', {
     id: newPlayer.id,
     x: newPlayer.getX(),
@@ -87,6 +100,7 @@ function onNewPlayer (data) {
   for (var i = 0; i < players.length; i++) {
     var existingPlayer = players[i];
 
+    // Send all existing players to current game instance
     this.emit('new player', {
       id: existingPlayer.id,
       x: existingPlayer.getX(),
@@ -122,4 +136,4 @@ function findPlayerById (id) {
 
 // Initialize game and point user to "website"
 init();
-console.log('Magic happens on localhost:8080');
+// console.log('Magic happens on localhost:8080');

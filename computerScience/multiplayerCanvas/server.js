@@ -73,7 +73,11 @@ function onClientDisconnect() {
     return false;
   }
 
+  // This is just a fancy way to remove the player 
+  // from the array
   players.splice(players.indexOf(removePlayer), 1);
+ 
+  // Tell all other players that this player left.
   this.broadcast.emit('remove player', {
     id: this.id,
   });

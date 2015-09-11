@@ -311,3 +311,97 @@
     (never close Git Bash! that will stop the server) and you should see:
 
   New player has connected: (player's unique id)
+
+22. Now clients can connect to the server, but we can't see the player yet. First off,
+    add an id attribute to the Player class in js/Player.js
+
+  var 
+    x = startX,
+    y = startY,
+    moveAmount = 5,
+    id;
+
+23. Now add in same getters and setters you used in the server player class.
+
+  /**
+   * @return {Integer} x coord of player
+   */
+  this.getX = function() {
+    return x;
+  }
+
+  /**
+   * @return {Integer} y coord of player
+   */
+  this.getY = function() {
+    return y;
+  }
+
+  /**
+   * set x coord of player
+   * @param newX {Integer} new x coord for player
+   */
+  this.setX = function(newX) {
+    x = newX;
+  }
+
+  /**
+   * set y coord of player
+   * @param newY {Integer} new y coord for player
+   */
+  this.setY = function(newY) {
+    y = newY;
+  }
+
+24. Now this would work for a single player game, but not for multiple 
+    people. Let's add in remote players in the game.js file.
+
+  ////////////////////
+  // Game Variables //
+  ////////////////////
+  // canvas {Object} our canvas to draw on
+  // context {Object} graphics that lets us draw
+  // keys {Keys} controls state of key presses at any time
+  // localPlayer {Player} our player object
+  // remotePlayers {Array} array of Player objects also in the game
+  // socket {Socket} socket object that handles connection between client and server
+  var
+    canvas,
+    context,
+    keys,
+    localPlayer,
+    remotePlayers,
+    socket;
+
+25. In the init function, make sure that there are no remote players at the start of the game.
+
+  remotePlayers = [];
+
+26. Add the following to the onNewPlayer function, so any new player is pushed to our remote 
+    players array.
+
+  var newPlayer = new Player(data.x, data.y);
+  newPlayer.id = data.id;
+  remotePlayers.push(newPlayer);
+
+27. Nothing will happen if we run the server now because we haven't told the game to create a 
+    new player anytime someone connects. To do that, add this code to the onSocketConnected function
+
+  // Push our local player to the server
+  socket.emit('new player', {
+    x: localPlayer.getX(),
+    y: localPlayer.getY(),
+  });
+
+28. Now new players are created on the server, but not drawn. To draw the players, add the following
+    to the draw function
+
+  for (var i = 0; i < remotePlayers.length; i++) {
+    remotePlayers[i].draw(context);
+  };
+
+29. Now when we run the server (hint: hit Ctrl+C and `node server.js`) and open our index.html in
+    the browser, we can see our square. Open the file multiple times and you'll see multiple squares.
+
+30. There is a bug in this code! See how there are multiple squares created when you refresh the browser?
+    Try to fix this on your own. The walkthrough for the answer is in answer.txt

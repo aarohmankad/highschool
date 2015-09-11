@@ -5,6 +5,7 @@
 // context {Object} graphics that lets us draw
 // keys {Keys} controls state of key presses at any time
 // localPlayer {Player} our player object
+// remotePlayers {Array} array of Player objects also in the game
 // socket {Socket} socket object that handles connection between client and server
 var
   canvas,
@@ -105,6 +106,7 @@ function onResize() {
 function onSocketConnected() {
   console.log('Connected to socket server');
 
+  // Push our local player to the server
   socket.emit('new player', {
     x: localPlayer.getX(),
     y: localPlayer.getY(),
@@ -196,7 +198,7 @@ function draw() {
   localPlayer.draw(context);
 
   for (var i = 0; i < remotePlayers.length; i++) {
-    remotePlayers[i].draw(context)
+    remotePlayers[i].draw(context);
   };
 }
 

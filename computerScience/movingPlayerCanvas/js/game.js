@@ -137,7 +137,21 @@ function onNewPlayer(data) {
  * @param data {Object} data on the player that moved
  */
 function onMovePlayer(data) {
+  var movePlayer = findPlayerById(data.id);
 
+  if (!movePlayer) {
+    console.log('Player not found:', data.id);
+    return;
+  }
+
+  movePlayer.setX(data.x);
+  movePlayer.setY(data.y);
+
+  this.broadcast.emit('move player', {
+    id: movePlayer.id,
+    x: movePlayer.getX(),
+    y: movePlayer.getY(),
+  });
 }
 
 /**
@@ -185,7 +199,12 @@ function animate() {
  * updates player based on state of keys pressed
  */
 function update() {
-  localPlayer.update(keys);
+  if (localPlayer.update(keys)) {
+    socket.emit('move player', {
+      x: localPlayer.getX(),
+      y: localPlayer.getY(),
+    });
+  }
 }
 
 /**

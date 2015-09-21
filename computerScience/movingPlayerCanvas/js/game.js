@@ -137,6 +137,8 @@ function onNewPlayer(data) {
  * @param data {Object} data on the player that moved
  */
 function onMovePlayer(data) {
+  console.log("updating player");
+
   var movePlayer = findPlayerById(data.id);
 
   if (!movePlayer) {
@@ -146,12 +148,6 @@ function onMovePlayer(data) {
 
   movePlayer.setX(data.x);
   movePlayer.setY(data.y);
-
-  this.broadcast.emit('move player', {
-    id: movePlayer.id,
-    x: movePlayer.getX(),
-    y: movePlayer.getY(),
-  });
 }
 
 /**

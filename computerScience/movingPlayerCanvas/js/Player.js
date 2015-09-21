@@ -38,7 +38,7 @@ var Player = function(startX, startY) {
 			x += moveAmount;
 		}
 
-		return (prevX !== x || prevY !== y) ? true : false;
+		return (prevX != x || prevY != y) ? true : false;
 	};
 
 	/**

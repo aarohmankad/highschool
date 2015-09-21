@@ -120,7 +120,20 @@ function onNewPlayer (data) {
  * @param data {Object} data on player movement
  */
 function onMovePlayer (data) {
-  
+  var movePlayer = findPlayerById(this.id);
+
+  if (!movePlayer) {
+    console.log('Player not found:', this.id);
+  }
+
+  movePlayer.setX(data.x);
+  movePlayer.setY(data.y);
+
+  this.broadcast.emit('move player', {
+    id: movePlayer.id,
+    x: movePlayer.getX(),
+    y: movePlayer.getY(),
+  });
 }
 
 /**
@@ -140,4 +153,4 @@ function findPlayerById (id) {
 
 // Initialize game and point user to "website"
 init();
-// console.log('Magic happens on localhost:8080');
+console.log('Magic happens on localhost:8080');

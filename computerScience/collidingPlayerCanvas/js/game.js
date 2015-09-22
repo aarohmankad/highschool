@@ -110,6 +110,7 @@ function onSocketConnected() {
   socket.emit('new player', {
     x: localPlayer.getX(),
     y: localPlayer.getY(),
+    size: localPlayer.getSize(),
   });
 }
 
@@ -127,7 +128,7 @@ function onSocketDisconnect() {
 function onNewPlayer(data) {
   console.log('New player connected:', data.id);
 
-  var newPlayer = new Player(data.x, data.y);
+  var newPlayer = new Player(data.x, data.y, data.size);
   newPlayer.id = data.id;
   remotePlayers.push(newPlayer);
 }

@@ -90,7 +90,7 @@ function onClientDisconnect() {
  */
 function onNewPlayer (data) {
   // create a new player and assign it a unique id
-  var newPlayer = new Player(data.x, data.y);
+  var newPlayer = new Player(data.x, data.y, data.size);
   newPlayer.id = this.id;
 
   // Let all other players know there is a new player
@@ -99,6 +99,7 @@ function onNewPlayer (data) {
     id: newPlayer.id,
     x: newPlayer.getX(),
     y: newPlayer.getY(),
+    size: newPlayer.getSize(),
   });
 
   for (var i = 0; i < players.length; i++) {
@@ -109,6 +110,7 @@ function onNewPlayer (data) {
       id: existingPlayer.id,
       x: existingPlayer.getX(),
       y: existingPlayer.getY(),
+      size: existingPlayer.getSize(),
     });
   };
 

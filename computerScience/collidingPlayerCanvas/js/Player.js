@@ -6,12 +6,12 @@
  * @param startY {Integer} beginning y coord of player
  * @return {Object} Player object with update and draw functions
  */
-var Player = function(startX, startY) {
+var Player = function(startX, startY, startSize) {
 	var 
 		x = startX,
 		y = startY,
 		moveAmount = 5,
-		size = Math.random() * 5 + 10,
+		size = startSize || Math.random() * 5 + 10,
 		id;
 
 	/**
@@ -65,6 +65,13 @@ var Player = function(startX, startY) {
 	 */
 	this.getY = function() {
 	  return y;
+	}
+
+	/**
+	 * @return {Integer} size of player
+	 */
+	this.getSize = function() {
+		return size;
 	}
 
 	/**

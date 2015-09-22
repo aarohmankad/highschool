@@ -4,11 +4,11 @@
  * @param startY {Object} starting y coord of player
  * @return {Object} Player Object
  */
-var Player = function (startX, startY) {
+var Player = function (startX, startY, startSize) {
   var
     x = startX,
     y = startY,
-    size = Math.random() * 5 + 10,
+    size = startSize || Math.random() * 5 + 10,
     id;
 
   /**
@@ -23,6 +23,13 @@ var Player = function (startX, startY) {
    */
   this.getY = function() {
     return y;
+  }
+
+  /**
+   * @return {Integer} size of player
+   */
+  this.getSize = function() {
+    return size;
   }
 
   /**

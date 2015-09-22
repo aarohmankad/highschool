@@ -122,7 +122,7 @@ function onNewPlayer (data) {
 function onMovePlayer (data) {
   var movePlayer = findPlayerById(this.id);
 
-  if (!movePlayer) {
+  if (!movePlayer) {  
     console.log('Player not found:', this.id);
   }
 

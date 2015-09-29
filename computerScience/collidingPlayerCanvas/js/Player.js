@@ -90,5 +90,24 @@ var Player = function(startX, startY, startSize) {
 	  y = newY;
 	}
 
+	/**
+	 * will absorb player and kill it
+	 * @param absorbPlayer {Player} player to be absorbed
+	 */
+	this.absorb = function(absorbPlayer) {
+			size += absorbPlayer.getSize();
+
+			absorbPlayer.remove();
+	}
+
+	this.remove = function() {
+		console.log('Player is being removed:', this.id);
+		
+		// Tell all other players that this player left.
+		this.broadcast.emit('remove player', {
+		  id: this.id,
+		}).bind(this);
+	}
+
 	return this;
 };

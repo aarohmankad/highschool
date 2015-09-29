@@ -164,6 +164,7 @@ function onRemovePlayer(data) {
   }
 
   remotePlayers.splice(remotePlayers.indexOf(removePlayer), 1);
+  console.log('removed player from remote players');
 }
 
 
@@ -182,11 +183,19 @@ function findPlayerById (id) {
   return null;
 }
 
+function collides(a, b) {
+  return a.getX() < b.getX() + b.getSize() &&
+         a.getX() + a.getSize() > b.getX() &&
+         a.getY() < b.getY() + b.getSize() &&
+         a.getY() + a.getSize() > b.getY();
+}
+
 /**
  * Calls update and draw 60 times a second
  */
 function animate() {
   update();
+  handleCollisions();
   draw();
 
   window.requestAnimationFrame(animate);
@@ -202,6 +211,20 @@ function update() {
       y: localPlayer.getY(),
     });
   }
+}
+
+function handleCollisions() {
+  console.log('handling collisions');
+  remotePlayers.forEach(function(remotePlayer) {
+    if (collides(remotePlayer, localPlayer)) {
+      console.log('there is a collision');
+      if (localPlayer.getSize() > remotePlayer.getSize()) {
+        localPlayer.absorb(remotePlayer);
+      } else {
+        remotePlayer.absorb(localPlayer);
+      }
+    }
+  });
 }
 
 /**

@@ -10,6 +10,15 @@ document.getElementById('weatherSFButton').addEventListener('click', function() 
   getWeatherData(94101);
 });
 
+document.getElementById('customZIP').addEventListener('keypress', function(event) {
+  if (event.which !== 13) {
+    return false;
+  }
+
+  var customZIP = document.getElementById('customZIP').value;
+  getWeatherData(customZIP);
+});
+
 /**
  * gets data from wunderground api
  */

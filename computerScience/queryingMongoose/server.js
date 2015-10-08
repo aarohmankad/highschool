@@ -35,7 +35,7 @@ maxwell.then(function (maxwellData) {
 
 // We can also find all student with 'name' of 'Aaroh'
 // Find another student using some other field
-Student.find({'name': 'Aaroh'}, function(err, student) {
+Student.findOne({'name': 'Aaroh'}, function(err, student) {
   if (err) {
     console.log(err);
   }

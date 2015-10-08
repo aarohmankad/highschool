@@ -5,10 +5,8 @@ Mongoose to create a database for our node applications.
 
 2. Open a Git Bash anywhere and run `mongod`. Do not
 close this window throughout the process of this tutorial.
-The command opens our Mongoose databases for use.
-
-2. Drag the node_modules folder in this project to 
-your own folder.
+Minimize it if necessary. The command opens our Mongoose
+databases for use.
 
 3. Let's create our package.json and outline the 
 dependencies we need.
@@ -18,6 +16,10 @@ dependencies we need.
       "mongoose": "^4.1.10"
     }
   }
+
+3.5. Open Git Bash in your project folder and run the
+command `npm install`. This command installs any dependencies
+outlined in our package.json, in our case, mongoose.
 
 4. This will let us use mongoose in our node application
 

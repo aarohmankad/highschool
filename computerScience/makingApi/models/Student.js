@@ -1,5 +1,9 @@
 var mongoose = require('mongoose');
 
+/**
+ * Student model
+ * @type {Schema}
+ */
 var Student = new mongoose.Schema({
   createdDate: {
     type: Date,
@@ -22,4 +26,5 @@ var Student = new mongoose.Schema({
   },
 });
 
+// Allow us to export model to other files (e.x. routes)
 module.exports = mongoose.model('Student', Student);

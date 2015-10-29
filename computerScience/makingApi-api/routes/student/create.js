@@ -8,7 +8,7 @@ module.exports = function(router) {
   router.post('/students', function (req, res) {
     Student.create(req.body, function (err, student) {
       if (err) {
-        return res.send(err.message);
+        return res.send(err);
       }
 
       return res.send(student);

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>School</title>
+</head>
+<body>
+    <!-- form to submit a student -->
+    <form id='studentForm'>
+        <input type='text' placeholder='Name' id='name'>
+        <input type='number' placeholder='Age' id='age'>
+        <input type='text' placeholder='ID' id='identification'>
+        <select id='gender'>
+            <option value='Male'>Male</option>
+            <option value='Female'>Female</option>
+        </select>
+        <input type="submit">
+    </form>
+
+    <!-- Button that will trigger the get request when clicked -->
+    <button id="getAllStudents">Get All Students</button>
+
+    <table id="students">
+        <tr>
+            <td>NAME</td>
+            <td>AGE</td>
+            <td>ID</td>
+            <td>GENDER</td>
+        </tr>
+    </table>
+
+<!-- Request Library -->
+<script src="js/request.js"></script>
+<!-- Our client side javascript -->
+<script src='js/app.js'></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+#   The Judicial Branch
+
+**What is Judicial Federalism??**
+
+*   A Dual Court system
+    +   Two court systems, state and federal, exist and operate at the same time in the same geographic areas.
+
+**What is the role of the Judicial Branch?**
+
+*   To interpret and define law
+    +   hearing individual cases & deciding how the law should apply
+
+**Where do the Courts Jurisdiction come from?**
+
+*   Article III of the Constitution creates 'one supreme court, and such inferior courts' that Congress creates
+    +   Thus, Congress creates the system underneath Supreme Court
+
+**What is the Federal Judiciary's purpose?**
+
+*   Framers viewed federal judiciary as an important check against Congress and President
+*   But judiciary has no influence over the Military or the Budget
+*   Judicial power is ensured via
+    +   Insulation from public opinion
+    +   Insulation from the rest of government
+
+**What are the qualifications to be a Supreme Court Judge?**]
+
+*   No formal qualifications
+*   President must nominate you
+*   Senate majority vote confirms
+
+**What are the District Courts?**
+
+*   The principal trial court in the system
+*   Hears both criminal and civil cases
+
+**What is the Court of Appeals?**
+
+*   Hears both criminal and civil cases
+*   No case originates in Court of Appeals, only has appellete jurisdiction
+
+
+**What is the process of a Criminal Case?**
+
+*   US Attorney gathers up all the evidence against you
+*   Presents it to a grand jury (16-23 people)
+*   If they indict you, trail begins with a new jury
+*   If you lose your trial, you have the option to appeal to a higher court
+    +   The higher court will only take the case if there was a significant issue with the initial court case
+*   Higher courts can overrule lower court decisions
+
+**What is Judicial Review?**
+
+*   the power to declare the acts of government unconstitutional, thus eliminating them
+*   comes from case of Marbury v Madison
+
+**How does a case get to the Supreme Court?**
+
+*   Court will issue a *writ of certiorari* (acceptance of a case), if the judges want to hear it.
+
+**What does the trial at the Supreme Court look like?**
+
+*   No evidence, witnesses, etc.
+*   Rather, one attorney for each side presents his/her argument for 30 minutes while being questioned by the judges
+*   Once arguments are over, justices will write *opinions* on the case, and each justice chooses which opinion signs his/her name to
+    +   Majority Opinion: final decision on the case, signed by at least five of the nine justices
+    +   Creates a precedent for future similar cases
+    +   Dissenting Opinion: written or signed by any justice who disagrees with the majority
+    

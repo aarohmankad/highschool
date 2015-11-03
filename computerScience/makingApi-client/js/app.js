@@ -102,46 +102,66 @@ document.getElementById('getAllStudents').addEventListener('click', function() {
   });
 });
 
+/**
+ * adds student data to students table
+ * @param data {Object} new student data
+ */
 function addDataToHTML (data) {
+  // Create row for new student
   var row = document.createElement('tr');
+  // Create columns of attributes
   var nameCol = document.createElement('td');
   var ageCol = document.createElement('td');
   var idCol = document.createElement('td');
   var genderCol = document.createElement('td');
 
+  // Set content of columns 
   nameCol.innerHTML = data.name;
   ageCol.innerHTML = data.age;
   idCol.innerHTML = data.id;
   genderCol.innerHTML = data.gender;
 
+  // Add all columns to the row
   row.appendChild(nameCol);
   row.appendChild(ageCol);
   row.appendChild(idCol);
   row.appendChild(genderCol);
 
+  // Add row to table
   document.getElementById('students').appendChild(row);
 }
 
+/**
+ * empties students table and adds all students to it
+ * @param data {Array} array of student data
+ */
 function replaceHTMLWithData (data) {
+  // empty students table
   document.getElementById('students').innerHTML = '';
 
+  // Loop through all students
   for (var i = 0; i < data.length; i++) {
+    // Create row for new student
     var row = document.createElement('tr');
+    // Create columns of attributes
     var nameCol = document.createElement('td');
     var ageCol = document.createElement('td');
     var idCol = document.createElement('td');
     var genderCol = document.createElement('td');
 
+    // Set content of columns 
     nameCol.innerHTML = data[i].name;
     ageCol.innerHTML = data[i].age;
     idCol.innerHTML = data[i].id;
     genderCol.innerHTML = data[i].gender;
 
+    // Add all columns to the row
     row.appendChild(nameCol);
     row.appendChild(ageCol);
     row.appendChild(idCol);
     row.appendChild(genderCol);
 
+    // Add row to table
     document.getElementById('students').appendChild(row);
   }
 }

@@ -191,4 +191,92 @@ Now that we have our server, lets start to make a client that can communicate wi
     }
   }
 
-13. Remember all those Git Bash windows you had open? In the two windows running `node server.js`, press Ctrl+C twice and press `Up` and then `Enter`. Now go to `localhost:9000` again and test out our new button.
+13. Remember all those Git Bash windows you had open? In the two windows running `node server.js`, press Ctrl+C twice and press `Up` and then `Enter` in each of them. Now go to `localhost:9000` again and test out our new button.
+
+14. Now let's work on deleting students. Let's create a delete form. We just need the id of a student to delete him/her.
+
+  <h2>Delete a student: </h2>
+
+  <form id='deleteStudentForm'>
+      <input type='text' placeholder='ID' id='deleteIdentification'>
+      <input type="submit">
+  </form>
+
+15. Now in our app.js file, let's attach an event listener to the delete form.
+
+  /**
+   * when the delete form is submitted, execute code to add student
+   * @param event {Object} event information on form submission
+   */
+  document.getElementById('deleteStudentForm').addEventListener('submit', function(event) {
+    // Prevent default action of submitting a form
+    event.preventDefault();
+
+    // Send post request to api endpoint
+    request.send({
+      method: 'DELETE',
+      url: 'http://localhost:8000/api/students/' + document.getElementById('deleteIdentification').value,
+    }, function(err, data) {
+      if (err) {
+        console.log(err);
+      }
+
+      // Print the data after we receive it
+      document.getElementById('getAllStudents').click();
+    });
+  });
+
+16. In the Git Bash windows you had open running `node server.js`, press Ctrl+C twice and press `Up` and then `Enter` in each of them. Now go to `localhost:9000` again and test out the delete function. You should be able to create students, get all students, and then delete one using that students id.
+
+17. If you wanted to edit a student right now, we'd have to delete the old student and create a new one. Let's just make an edit form. In index.html: 
+
+  <h2>Edit a Student: </h2>
+
+  <form id='updateStudentForm'>
+      <input type='text' placeholder='ID (required, immutable)' id='updateIdentification'>
+      <input type='text' placeholder='Name' id='updateName'>
+      <input type='number' placeholder='Age' id='updateAge'>
+      <select id='updateGender'>
+          <option value='Male'>Male</option>
+          <option value='Female'>Female</option>
+      </select>
+      <input type="submit">
+  </form>
+
+18. Now in app.js, attach an event listener to the edit student form.
+
+  /**
+   * when the update form is submitted, execute code to add student
+   * @param event {Object} event information on form submission
+   */
+  document.getElementById('updateStudentForm').addEventListener('submit', function(event) {
+    // Prevent default action of submitting a form
+    event.preventDefault();
+
+    // Create a parameters object for sending to api
+    var params = {
+      name: document.getElementById('updateName').value,
+      age: parseInt(document.getElementById('updateAge').value),
+      gender: document.getElementById('updateGender').value,
+    };
+
+    // Send post request to api endpoint
+    request.send({
+      method: 'PUT',
+      url: 'http://localhost:8000/api/students/' + document.getElementById('updateIdentification').value,
+      data: params,
+    }, function(err, data) {
+      if (err) {
+        console.log(err);
+      }
+
+      // Print the data after we receive it
+      document.getElementById('getAllStudents').click();
+    });
+  });
+
+19. In the Git Bash windows you had open running `node server.js`, press Ctrl+C twice and press `Up` and then `Enter` in each of them. Now go to `localhost:9000` again and test out the update/edit function.
+
+20. This concludes the basic makingApi-client tutorial. Here are some ways to make it better:
+
+  * Create a form that will find a student based on his/her id. The HTML will look similar to the delete form, you will need an event listener and your own data to html function (like addDataToHTML and replaceHTMLWithData)

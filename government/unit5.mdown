@@ -66,4 +66,3 @@
     +   Majority Opinion: final decision on the case, signed by at least five of the nine justices
     +   Creates a precedent for future similar cases
     +   Dissenting Opinion: written or signed by any justice who disagrees with the majority
-    

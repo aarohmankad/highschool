@@ -1,0 +1,10 @@
+# Chapter 19: Making Social Policy
+
+**entitlements**: Programs such an unemployment insurance, disaster relief, or disabilty payments that provide benefits to all eligible citizens.
+**means-tested entitlements**: Programs such as Medicaid and welfare under which applicants must meet eligibility requirements based on need.
+**social safety net**: The many programs that the federal government provides to protect Americans against economic and social misfortune, including unemployment insurance, health care for the elderly, emergency shelter for the homeless, and school lunches for poor children.
+**public assistance**: Aid to the poor; "welfare."
+**social insurance**: Programs in which eligibilty is based on prior contributions to government, usually in the form of payroll taxes.
+**Social Security**: A combination of entitlement programs, paid for by the employer and employee taxes, that includes retirement benefits, health insurance, and support for disabled workers and the children of deceased or disabled workers.
+**Medicare**: A national health insurance program for the elderly and the disabled.
+**Medicaid**: A federal program that provides medical benefits for low-income people.

@@ -1,0 +1,19 @@
+# Chapter 17: Public Policy
+
+**public policy**: A specific course of action that government takes to address a problem
+**politics**: The interaction of people and their government, including citizens, interest groups, political parties, and the institutions of government at all levels. Politics is concerned with who gets what, when, where, and how from government.
+**policy makers**: Individuals and groups that make teh actual choices to create public policy.
+**distributive policy**: A public policy such as Social Security that provides benefits to all groups of society.
+**redistributive policy**: A policy that provides to one group of society while taking away benefits from another through policy solutions such as tax increases to pay for welfare for poor individuals and families.
+**zero-sum games**: A policy that takes away exactly as much money as it gives away.
+**reverse distributive policy**: A policy that reduces benefits for all groups such as a tax increase in society, often by imposing rules that govern everyone.
+**nondecision**: A decision not to move ahead with the policy process. In short, it is a decision not to decide.
+**policy agenda**: The list of issues that the federal government pays attention to.
+**think tank**: A nongovernmental organization that seeks to influence public policy through research and education.
+**issue-attention cycle**: The movement of public opinion toward public policy from initial enthusiasm for action to realization of costs and a decline in interest.
+**incremental policy**: Small adjustments to current public policies.
+**punctuating policy**: Radical changes to public policy that occur only after the mobilization of large segments of society to demand action.
+**iron triangle**: A policy-making instrument composed of a tightly related alliance of a congressional committee, interest groups, and federal department or agency.
+**issue network**: A policy-making instrument composed of loosely related interest groups, congressional committees, presidential aides, and other parties.
+**regulation**: A policy that encourages or discourages certain behaviour by imposing a legally binding rule. Rules are made through a long process that begins with an act of Congress and ends with issuance of a final rule.
+**rule**: A precise statement of how a law is implemented.

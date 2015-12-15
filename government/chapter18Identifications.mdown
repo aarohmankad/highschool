@@ -1,0 +1,40 @@
+# Chapter 18: Making Economic Policy
+
+**fiscal policy**: Government policy that attempts to manage the economy by controlling taxing and spending.
+**monetary policy**: Government policy that attempts to manage the economy by controlling the money supply and interest rates.
+**inflation**: A rise in the general price level (and decrease in dollar value) owing to an icnrease in the volume of money and credit in relation to available goods.
+**unemployment**: The number of Americans who are out of work but actively looking for a job. The number does not usually include those who are not looking.
+**stagflation**: A combination of an economic slowdown (stagnation) and a rise in prices (inflation).
+**gross domestic product (GDP)**: The value of all goods and services produced by an economy during a specific period of time such as a year.
+**excise tax**: A consumer tax on a specific kind of merchandise, such as tobacco. Referenced as a tax on "sinful goods".
+**budget deficit**: The condition that exists when the federal government raises less revenue that it spends.
+**tariff**: A tax levied on imports to help protect a nation's industries, labor, or farmers from foreign competition. It can also be used to raise additional revenue.
+**progressive tax**: A tax graduated so that people with higher incomes pay a larger fraction of their income that people with lower incomes.
+**regressive tax**: A tax whereby people with lower incomes pay a higher fraction of their income that people with higher incomes.
+**national debt**: The total amount of money the federal government has borrows to finance deficit spending throughout the years.
+**mandatory spending**: Required spending under the federal budget. Social Security and Medicare.
+**discretionary spending**: Spending that can be altered by congressional and presidential action.
+**Office of Mangement and Budget (OMB)**: The presidential staff agency that servces as a clearinghouse for budgetary requests and management improvement for government agencies.
+**Congressional Budget Office (CBO)**: An agency of Congress that analyzes presidential budget recommendations and estimates the costs of proposed legislation.
+**tax expenditure**: A loss of tax revenue due to federal laws that provide special tax incentives or benefits to individuals or businesses.
+**sales tax**: A general tax on sales transactions, sometimes exempting such items as food and pharmaceuticals.
+**value-added tax (VAT)**: A tax on increased value of a product at each stage of production and distribution rather than just at the point of sale.
+**Federal Reserve System**: The system created by Congress in 1913 to establish banking practices and regulate currency in circulation and the amount of credit available. It consists of 12 regional banks supervised by the Board of the Governers. Often simply called "the Fed".
+**federal funds rate**: The amount of interest banks charge for loans to each other.
+**laissez-faire economics**: A theory that opposes governmental interference in economic affairs beyond what is necessary to protect life and property.
+**keynesian economics**: An economic theory based on the principles of John Maynard Keynes stating that government spending should increase during business slumps and be curbed during booms.
+**protectionism**: A policy of erecting trade barriers to protect domestic industry.
+**trade deficit**: An imbalance in international trade in which the value of imports exceeds the value of exports.
+**World Trade Organization (WTO)**: An international organization derived from the General Agreement of Tariffs and Trade (GATT) that promotes free trade around the world.
+**General Agreement of Tariffs and Trade (GATT)**: An international trade organization with more than 130 members that seeks to encourage free trade by lowering tariffs and other trade restrictions.
+**North American Free Trade Agreement (NAFTA)**: An agreement signed by the United States, Mexico, and Canada in 1992 to form the largest free trade zone in the world.
+**monopoly**: Domination of an industry by a single company; also the company that dominates the industry.
+**antitrust legislation**: Federal laws (starting with the Sherman Antitrust Act of 1890) that try to prevent a monopoly from dominating an industry and restraining trade.
+**trust**: A monopoly that controls goods and services, often in combinations that reduce competition.
+**closed shop**: A company with a labor agreement that requires union membership.
+**union shop**: A company in which employees must join the union within a certain time period.
+**labor injunction**: A court order forbidding specific individuals or groups from performing certain acts (such as striking) that the court considers harmful to the rights of and property of an employer or a community.
+**collective bargaining**: A method whereby representatives of the union and employer determine wages, hours, and other conditions of employment through direct negotiation.
+**environmental impact statement**: A statement required by federal law from all agencies for any project using federal funds to assess the potential effect of the new construction or development on the environment.
+**corporate social responsibility**: Efforts by corporations to improve their reputations by paying attention to their contributions to the social good.
+**deregulation**: A policy promoting cutbacks in the amount of federal regulation in specific areas of economic activity.
